@@ -1,0 +1,67 @@
+# INTRODUCTION TO FORM VALIDATION
+-------------------------------------
+
+* Introduction
+--------------
+Modern websites require a lot of information to function as intended. Information like our usernames, passwords, “friends”, “likes”, credit card information, and shopping orders all have 
+to be provided by users on the front-end and sent to the web applications’ servers so they can be processed. This information is used to create a personalized experience for the user.
+
+User information is traditionally collected using HTML forms. If you’ve ever entered text in a website, selected from options on a list, or checked boxes and then hit enter or pressed a 
+button, you likely filled out and submitted an HTML form!
+
+In order for the data submitted through forms to be useful, it’s essential that the information is valid—if you were allowed to accidentally submit your last name where your address was 
+expected, your package would never show up!
+
+The process of checking that the information submitted through a form adheres to expectations is called form validation. In this lesson, we’ll explore the different techniques for 
+validating form inputs.
+
+index.html
+----------
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <body>
+    <h1>Welcome To This Form</h1>
+    <form action="" method="POST">
+          <label for="text">You can enter text here:</label>
+    			<input type="text" name="text">
+        <hr>
+          <label for="num">You can enter a number here:</label>
+          <input type="number" name="num">
+        <hr>
+          <label for="slider">You can slide this:</label>
+          <br>
+          <span>Left</span>
+          <input type="range" name="slider" value="3" min="1" max="5">
+          <span>Right</span>
+        <hr>
+       <label for="boxes">You can check these:</label>
+          <input type="checkbox" name="boxes" value="first">
+          <label for="first">First</label>
+          <input type="checkbox" name="boxes"  value="second">
+          <label for="second">Second</label>
+          <input type="checkbox" name="boxes" value="third">
+          <label for="third">Third</label>
+        <hr>
+      <label for="radio">You can select one of these:</label>
+          <input type="radio" name="radio" value="true">
+          <label for="true">TRUE</label>
+          <input type="radio" name="radio" value="false">
+          <label for="false">FALSE</label>
+        <hr>
+          <label for="dropdown">You can select one of these</label>
+          <select name="dropdown">
+            <option value="first">First</option>
+            <option value="second">Second</option>
+            <option value="third">Third</option>
+          </select>
+        <hr>
+          <input type="submit" value="Submit to Reset">
+      </form>
+  </body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
