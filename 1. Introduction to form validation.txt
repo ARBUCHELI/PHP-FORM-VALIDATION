@@ -95,9 +95,6 @@ Unlike humans, who can get this training passively over time, computers have to 
 special language called regular expressions — also known as regex or regexp. A regular expression is a sequence of characters representing a pattern. We can use that pattern to match a 
 string, match parts of a string, confirm that data is formatted acceptably, or even replace parts of strings with different characters.
 
-* Introduction
---------------
-
 Try entering some patterns in the applet provided. If you enter ello, you’ll notice how many of the examples include those characters. We could fully match all of the expressions with the 
 pattern [^]*. To match the first four expressions, we could use a pattern like [hH]ello[^]*. The pattern [^]*\d{3}[^]*\d{3}-\d{4} will match the two example phone numbers.
 
