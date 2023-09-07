@@ -44,7 +44,7 @@ gibbons!
 Regular expressions operate by moving character by character, from left to right, through a piece of text. When the regular expression finds a character that matches the first piece of 
 the expression, it looks to find a continuous sequence of matching characters.
 
-url.txt 
+url.txt (This is an applet)
 -------
 Add the hidden key from the browser to the end of the URL given below:
 
