@@ -44,7 +44,11 @@ gibbons!
 Regular expressions operate by moving character by character, from left to right, through a piece of text. When the regular expression finds a character that matches the first piece of 
 the expression, it looks to find a continuous sequence of matching characters.
 
+<<<<<<< HEAD
 url.txt
+=======
+url.txt 
+>>>>>>> 3c7d1a28b3a5f8d5f120c92381644aed1fe94718
 -------
 Add the hidden key from the browser to the end of the URL given below:
 
